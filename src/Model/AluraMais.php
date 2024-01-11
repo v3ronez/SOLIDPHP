@@ -2,9 +2,10 @@
 
 namespace Alura\Solid\Model;
 
+use Src\Model\Assistivel;
 use Src\Model\Pontuavel;
 
-class AluraMais extends Video implements Pontuavel
+class AluraMais extends Video implements Pontuavel, Assistivel
 {
     private $categoria;
 
